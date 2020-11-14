@@ -210,7 +210,7 @@ face[5] = new IniFace(5,1,2,3,2,2,0,4,0,0,0);
  }
  
   /*创建蛇的基本属性和方法*/
-  function CreateSnake(){
+function CreateSnake(){
 // this.frogCount = 0;       //已吃青蛙数
 this.runSpeed = 100;      //蛇的运动速度
 this.bodyLength = 7;      //初始长度为7
